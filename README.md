@@ -47,7 +47,7 @@ This project uses the official **GitHub REST API**:
 
 ---
 
-## 🚀 Advanced Interactive Features (Tasks Requirement)
+## 🚀 Advanced Interactive Features
 
 The following features are implemented as part of the project requirements:
 
@@ -89,7 +89,7 @@ All searching, filtering, and sorting functionalities are implemented using:
 
 ---
 
-## 🎯 Bonus Features (Optional but Recommended)
+## 🎯 Bonus Features
 
 The following enhancements can be implemented to improve performance, usability, and overall user experience:
 
