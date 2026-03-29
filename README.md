@@ -55,8 +55,8 @@ The following features are implemented as part of the project requirements:
 - Enable users to search repositories or profile-related data using keywords  
 - Implemented using **Array Higher-Order Functions** like `filter()`  
 
-### 🎯 Filtering
-- Filter repositories based on criteria such as:
+### 🎯 Comparing
+- Compare repositories based on criteria such as:
   - Most starred
   - Forked repositories
   - Language used  
@@ -108,12 +108,7 @@ The following enhancements can be implemented to improve performance, usability,
 ### ⏳ Loading Indicators
 - Displays visual feedback while fetching data from the API  
 - Improves user experience during delays  
-
-### 🔄 Infinite Scroll
-- Automatically loads more data as the user scrolls  
-- Alternative to pagination for seamless browsing  
  
-
 ---
 
 ## 📦 Deliverables
