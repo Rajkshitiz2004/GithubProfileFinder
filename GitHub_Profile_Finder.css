@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+    background: rgba(13, 17, 23, 1);
+}
+
+#main {
+    height: auto;
+    width: 1352px;
+    opacity: 100%;
+    position: relative;
+}
+
+.search {
+    /* margin-top: -250px; */
+    height: 800px;
+    width: 100%;
+    background-image: url(./public/Image1.png);
+    background-repeat: no-repeat;
+    background-size: auto 800px;
+    background-position: right top;
+}
+
+#navbar {
+    z-index: 10;
+    background-color: rgba(245, 245, 245, 0.176);
+    border-radius: 34px;
+    margin: 68px 91px 0px 91px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 65px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+#github {
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+#li .items{
+    display: flex;
+    list-style: none;
+    gap: 250px;
+    justify-content: space-around;
+}
+
+#li .items #item1 a{
+    /* margin: -69px auto -69px auto; */
+    color: rgba(230, 237, 243, 1);
+    text-decoration: none;
+    font-size: 36.6px;
+    /* width: 262px; */
+    /* padding-left: 113px; */
+}
+#li .items #item2 a{
+    /* margin: -69px auto -69px auto; */
+    color: rgba(230, 237, 243, 1);
+    text-decoration: none;
+    font-size: 36.6px;
+    /* width: 262px; */
+    /* padding-left: 113px; */
+}
+
+#icon {
+    padding-top: 8.5px;
+    height: 54.1px;
+    width: 74px;
+}
+
+#toggle {
+    border-radius: 51%;
+    padding: 3px 4px 1px 4px;
+    margin: 7px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+#toggle img {
+    height: 50.1px;
+    width: 54px;
+}
+
+.para {
+    color: rgba(230, 237, 243, 1);
+    line-height: 130px;
+    font-size: 96.6px;
+    width: 562px;
+        padding: 200px 0px 0px 300px
+}
+
+.input {
+    position: absolute;
+    left: 30%;
+    display: flex;
+    gap: 70px;
+}
+
+#user_name,
+#user_name1,
+#user_name2 {
+    border-style: none;
+    border-radius: 24px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+#user_name::placeholder {
+    padding-left: 20px;
+    opacity: 40%;
+    color: rgba(82, 81, 81, 0.529);
+    font-size: 15px;
+}
+
+#search_id {
+    border-style: none;
+    border-radius: 50%;
+    width: 75px;
+    padding: 21px 0px;
+    margin-top: -12px;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+
+.compare {
+    position: relative;
+    background-image: url("./public/Globe.png");
+    height: 900px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-size: auto 800px;
+    background-position: left;
+}
+
+#_1,
+#_2,
+#_3,
+#_4,
+#_5 {
+    position: absolute;
+}
+
+#_1 {
+    z-index: 100;
+    left: 628px;
+    top: 241px;
+}
+
+#_2 {
+    z-index: 100;
+    left: 20px;
+    bottom: 300px;
+}
+
+#_3 {
+    z-index: 100;
+    left: 900px;
+    top: 290px;
+}
+
+#_4 {
+    z-index: 100;
+    left: 6px;
+    top: 320px;
+}
+
+#_5 {
+    z-index: 100;
+    left: 565px;
+    bottom: 190px;
+}
+
+.compare .para {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    z-index: 0;
+}
+
+.compare .para {
+    color: rgba(230, 237, 243, 1);
+    line-height: 130px;
+    font-size: 96.6px;
+    width: 562px;
+    padding-top: 100px;
+}
+
+.compare .input {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 850px;
+    bottom: 256px;
+}
+
+.compare .input p {
+    margin: -69px auto -69px auto;
+    color: rgba(230, 237, 243, 1);
+    font-size: 56.6px;
+    width: 262px;
+    padding-left: 113px;
+}
+
+.compare .input #search_id {
+    position: absolute;
+    bottom: -133px;
+    right: 179px;
+}

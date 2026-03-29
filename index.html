@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="GitHub_Profile_Finder.css">
+</head>
+
+
+<body>
+    <div id="main">
+        <div id="navbar">
+            <a id="github" href="https://github.com/">
+                <img id="icon" src="./public/Vector.svg" alt="git" />
+            </a>
+            <div id="li">
+                <ul class="items">
+                    <li id="item1"><a href="#search">Search</a></li>
+                    <li id="item2"><a href="#compare">Compare</a></li>
+                </ul>
+            </div>
+            <button id="toggle">
+                <img src="./public/light-svgrepo-com.svg" alt="theme">
+            </button>
+        </div>
+        <div id="search" class="search">
+            <p class="para">Let's Search Your Profile</p>
+            <div class="input">
+                <input id="user_name" type="text" placeholder="Enter Your Username...">
+                <button id="search_id">Click</button>
+            </div>
+        </div>
+        <div id="compare" class="compare">
+            <img src="./public/star2.svg" alt="star2" id="_1">
+            <img src="./public/star1.svg" alt="star1" id="_2">
+            <img src="./public/twinkle.svg" alt="star2" id="_3">
+            <img src="./public/head.svg" alt="head" id="_4">
+            <img src="./public/head2.svg" alt="head2" id="_5">
+            <p class="para">Let's Compare Your Profile</p>
+            <div class="input">
+                <input id="user_name1" type="text" placeholder="Enter Your Username...">
+                <p>V/S</p>
+                <input id="user_name2" type="text" placeholder="Enter Your Username...">
+                <button id="search_id">Click</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <!-- Footer content here -->
+    </div>
+    <script src="GitHub_Profile_Finder.js"></script>
+</body>
+
+</html>
