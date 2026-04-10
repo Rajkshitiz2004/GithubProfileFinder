@@ -1,136 +1,83 @@
 # 🔍 GitHub Profile Finder
 
-A simple and efficient web application that allows users to search for GitHub profiles and view key information such as repositories, followers, following, and more — all in one place.
+A premium, modern web application designed to explore GitHub profiles with ease. Featuring a sleek **Glassmorphism** UI, real-time repository filtering, and dynamic theme switching, this tool provides a seamless experience for developers to discover and compare GitHub users.
 
 ---
 
-## 📌 Purpose
-
-The purpose of this project is to:
-
-- Practice working with APIs (especially REST APIs)
-- Improve frontend development skills
-- Understand asynchronous JavaScript (Promises, async/await)
-- Build a real-world, user-friendly application
-
----
-
-## 🌐 API Used
-
-This project uses the official **GitHub REST API**:
-
-- Base URL: `https://api.github.com/users/{username}`
-
-### Data Retrieved:
-- User name
-- Username
-- Profile picture (avatar)
-- Bio
-- Public repositories count
-- Followers & following count
-- Location
-- Profile link
+## 🎨 Design Philosophy
+This project prioritizes **Rich Aesthetics** and **Responsive Design**:
+- **Glassmorphism**: Blurred backgrounds and vibrant gradients for a modern, high-end feel.
+- **Dynamic UI**: Hover effects, smooth transitions, and micro-animations.
+- **Theme Support**: Seamlessly toggle between dark and light modes with persistent settings.
 
 ---
 
 ## ✨ Features
 
-### ✅ Implemented Features
+### 🚀 Core Functionality
+- **User Discovery**: Fetch real-time data from the GitHub REST API by entering any username.
+- **Interactive Profile Cards**: View avatars, bios, social stats (followers/following), and joining dates.
+- **Active Status Indicator**: Live 🟢/🔴 indicator based on the user's recent activity (within 7 days).
 
-- 🔎 Search GitHub users by username  
-- 👤 Display user profile details  
-- 📦 Show public repositories count  
-- 👥 Show followers and following  
-- 🖼️ Display profile avatar  
-- 🔗 Direct link to GitHub profile  
-- ⚠️ Error handling (user not found, API issues)  
+### 📦 Repository Explorer
+- **Live Filtering**: Filter repositories by programming language instantly.
+- **Smart Sorting**: Organize repositories alphabetically (A-Z or Z-A).
+- **Stat Tracking**: View stars, forks, and primary languages for every repository.
 
----
-
-## 🚀 Advanced Interactive Features
-
-The following features are implemented as part of the project requirements:
-
-### 🔍 Searching
-- Enable users to search repositories or profile-related data using keywords  
-- Implemented using **Array Higher-Order Functions** like `filter()`  
-
-### 🎯 Comparing
-- Compare repositories based on criteria such as:
-  - Most starred
-  - Forked repositories
-  - Language used  
-- Implemented using `filter()`  
-
-### 🔄 Sorting
-- Sort repositories based on:
-  - Stars (ascending/descending)
-  - Name (alphabetical)
-  - Last updated  
-- Implemented using `sort()`  
-
-### 🌓 Dark Mode / Light Mode
-- Toggle between dark and light themes  
-- Enhances user experience and accessibility  
+### 🌗 Dark & Light Modes
+- User-friendly theme toggle with logic to remember your preference across sessions using `localStorage`.
 
 ---
 
-## ❗ Important Implementation Rule
+## 📸 Visuals
 
-All searching, filtering, and sorting functionalities are implemented using:
+### Dark Mode (Default)
+![GitHub Profile Finder Dark Mode](./public/preview-dark.png)
 
-- `map()`
-- `filter()`
-- `reduce()`
-- `find()`
-- `sort()`
-
-🚫 Traditional loops like `for` or `while` are **not used** for these operations.
+### Light Mode
+![GitHub Profile Finder Light Mode](./public/preview-light.png)
 
 ---
 
-## 🎯 Bonus Features
+## 🛠️ Tech Stack
 
-The following enhancements can be implemented to improve performance, usability, and overall user experience:
-
-### ⚡ Debouncing
-- Limits how frequently a function executes  
-- Applied to the search bar to prevent excessive API calls on every keystroke  
-
-### ⏱️ Throttling
-- Controls how often a function runs over time  
-- Useful for handling scroll events or repeated clicks efficiently  
-
-### 📄 Pagination
-- Breaks large datasets into smaller, manageable pages  
-- Useful when displaying repository lists or search results  
-
-### ⏳ Loading Indicators
-- Displays visual feedback while fetching data from the API  
-- Improves user experience during delays  
- 
----
-
-## 📦 Deliverables
-
-- Fully functional interactive UI  
-- Dynamic data rendering using API  
-- Advanced features (search, filter, sort, theme toggle)  
-- Clean and modular code structure  
+- **HTML5**: Semantic structure for accessibility and SEO.
+- **Vanilla CSS**: Custom design system featuring CSS variables and backdrop filters.
+- **JavaScript (ES6+)**: 
+  - Asynchronous data fetching with `fetch`.
+  - Advanced Array methods (`map`, `filter`, `sort`) for data manipulation.
+  - Zero traditional loops (`for`/`while`) — strictly functional approach.
+- **GitHub REST API**: Reliable source for real-time user data.
 
 ---
 
-## 🛠️ Technologies Used
+## 📂 Project Structure
 
-- **HTML5** – Structure of the web page  
-- **CSS3** – Styling and layout  
-- **JavaScript (ES6+)** – Logic and API handling  
-- **GitHub REST API** – Fetching user data  
-- **Fetch API / Async-Await** – Handling API requests  
+- `index.html`: The core structure and navigation.
+- `GitHub_Profile_Finder.js`: API integration, rendering logic, and theme management.
+- `GitHub_Profile_Finder.css`: Custom design tokens, glassmorphism styles, and responsiveness.
+- `public/`: Assets including SVG icons and preview images.
 
 ---
 
-### 1. Clone the Repository
+## 🚀 Getting Started
 
-```bash
-git clone https://github.com/your-username/github-profile-finder.git
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Rajkshitiz2004/GithubProfileFinder.git
+   ```
+2. **Open the project**:
+   Simply open `index.html` in your favorite web browser.
+
+---
+
+## 📝 Deliverables
+- [x] Fully functional interactive UI.
+- [x] Dynamic data rendering via GitHub API.
+- [x] Advanced features (Language filter, Sorting).
+- [x] Persistent Theme Toggle.
+- [x] Clean, modular code structure.
+
+---
+
+Developed with ❤️ by [Kshitiz Raj](https://github.com/Rajkshitiz2004)
