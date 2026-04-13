@@ -346,4 +346,28 @@ body {
         order: 3;
         margin-top: 20px;
     }
+
+    #navbar {
+        margin: 0px 20px;
+        top: 20px;
+        border-radius: 20px;
+    }
+
+    #li .items {
+        gap: 30px;
+    }
+
+    #li .items #item1 a, #li .items #item2 a {
+        font-size: 24px;
+    }
+
+    #icon {
+        height: 40px;
+        width: 55px;
+    }
+
+    #toggle img {
+        height: 40px;
+        width: 43px;
+    }
 }
