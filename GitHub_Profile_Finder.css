@@ -307,7 +307,7 @@ body {
         color: white;
         font-size: 60px;
         line-height: 80px;
-        padding: 100px 0px 0px 100px;
+        padding: 50px 0px 0px 20px;
         width: 100%;
         text-align: left;
     }
@@ -348,8 +348,9 @@ body {
     }
 
     #navbar {
-        margin: 0px 20px;
-        top: 20px;
+        margin: 0px 10px;
+        padding: 10px 20px;
+        top: 10px;
         border-radius: 20px;
     }
 
