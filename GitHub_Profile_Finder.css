@@ -330,13 +330,13 @@ body {
     }
 
     #sec1 {
-        width: 45%;
+        width: auto;
         order: 1;
         position: static;
     }
 
     #sec3 {
-        width: 45%;
+        width: auto;
         order: 2;
         position: static;
     }
